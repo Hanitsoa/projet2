@@ -40,10 +40,15 @@ height:120px;
 }
 #Loisirs
 {
-width: 25%;
-height:70px;	
-border: 1px solid #1334BD;
+	display: flex;
+	flex-direction:row;
+    padding:20px;
 }
+.loisirs2
+{
+  margin:5px;
+}
+
 h3
 {
 	text-align: center;
