@@ -7,43 +7,40 @@
     border: 1px solid #1363BD;
     font-family: 'Play';
 }
-
 #unmoit
 {
 	width: 30%;
-	height:1000px;
 	background-color:#1363BD;
-	/*border: 1px solid #1363BD;*/
 }
 #image
 {
-height: 100px;
-margin-left: 25%;
-margin-top: 25%;
+    height: 100px;
+    margin-left: 25%;
+    margin-top: 25%;
 }
-
 #image img
 {
 	border-radius: 50%;
 }
-
 #contact
 {
-width: 25%;
-height:50px;	
-/*border: 1px solid #1334BD;*/
+    width: 25%;
+    height:50px;
 }
 #Apdmoi
 {
-width: 25%;
-height:120px;	
-/*border: 1px solid #1334BD;*/
+    width: 25%;
+    height:120px;
 }
 #Loisirs
 {
-width: 25%;
-height:70px;	
-border: 1px solid #1334BD;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.loisirs
+{
+	margin-left: 5px;
 }
 .natation
 {
@@ -70,19 +67,15 @@ p
 	text-align:justify;
 	margin-right: 10px;
 }
-
 #secmoit
 {
-width: 75%;
-height:1000px;
-/*border: 1px solid black;*/
+    width: 75%;
 }
 #nom
 {
 	display: flex;
 	flex-direction: column;
 	height:100px;
-	/*border: 1px solid black;*/
 	color:black;
 	padding-left:20px;
 	padding-top: 70px;
@@ -90,11 +83,7 @@ height:1000px;
 .nom
 {
 	color: black;
-	/*padding-left:50px;
-	padding-top: 30px;
-	padding-bottom:10px;*/
 	height: 20px;
-
 }
 #zo
 {
@@ -115,14 +104,12 @@ height:1000px;
 {
 	padding-left: 30px;
 }
-
 #FORMATION2
 {
 	display: flex;
 	flex-direction:row;
-	/*width: 75%;*/
-	height:175px;
-	/*border: 1px solid black;*/
+	flex-wrap: wrap;
+	width: 100%;
 	font-size:small;
 }
 #FORMATION1
@@ -135,7 +122,6 @@ height:1000px;
 	width: 15%;
 	text-align: right;
 	padding-top: 30px;
-
 }
 .titres
 {
@@ -154,144 +140,39 @@ height:1000px;
 }
 .loisirs
 {
-  margin-left:5px;
+    margin-left:5px;
 }
-/*#puces
-{
-  width: 5%;	
-  display: flex;
-  flex-direction: column;
-}*/
-
-#annee
+.annee1, .annee2
 {
 	width: 40%;
-	display: flex;
-	flex-direction: column;
-	height: 200px;
 	font-size: small;
 }
-.annee1
+.competences1, .competences2
 {
-	/*width: 33%;*/
-	height: 93px;
-	padding-left: 5px;
-	font-size: small;
-}
-.annee2
-{
-	/*width: 33%;*/
-	height: 100px;
-	padding-left: 5px;
-}
-
-#competences
-{
-	display: flex;
-	flex-direction: column;
-	width:67%;
-	height:90px;
-	/*border: 1px solid black;*/
- }
-.competences1
-{
-	/*width:75%;*/
-	height:90px;
-	padding-left: 20px;
+	width:60%;
 	padding-top: 15px;
-	
 }
-.competences2
-{
-	/*width:75%;*/
-	height:80px;
-	padding-top: 15px;
-    padding-left: 20px;
-    
-}
-
-/*#EXPERIENCE_PROFESSIONELLE
-{
-	width: 500px;
-	height: 300px;
-border: 1px solid black;
-}*/
-
 #EXPERIENCES2
 {
 	display: flex;
 	flex-direction:row;
-	height:260px;
+	flex-wrap: wrap;
 	font-size:small;
 }
 #EXPERIENCES1
 {
 	display: flex;
 	flex-direction: row;
-	padding-top: 10px;
 }
-
-#date
+.date1, .date2, .date3
 {
 	width: 40%;
-	height: 300px;
-	/*border: 1px solid black;*/
-	font-size:small;
-}
-.date1
-{
-	/*width: 40%;*/
-	height: 85px;
-	/*border: 1px solid black;*/
-	padding-left: 5px;
 	font-size: small;
 }
-.date2
+.experience1, .experience2, .experience3
 {
-	/*width: 40%;*/
-	height: 85px;
-	/*border: 1px solid black;*/
-	padding-left: 5px;
-}
-.date3
-{
-	/*width: 40%;*/
-	height: 85px;
-	/*border: 1px solid black;*/
-	padding-left: 5px;
-}
-#Experience3
-{
-	display: flex;
-	flex-direction:column;
-	width: 67%;
-	height:300px;
-	/*border: 1px solid black;*/
- }
-.experience1
-{
-	/*width:75%;*/
-	height:90px;
-	/*border: 1px solid black;*/
-	padding-left: 20px;
+	width:60%;
 	padding-top: 15px;
-}
-.experience2
-{
-	/*width:75%;*/
-	height:90px;
-	/*border: 1px solid black;*/
-    padding-left: 20px;
-    padding-top: 20px;
-}
-.experience3
-{
-	/*width:75%;*/
-	height:120px;
-	/*border: 1px solid black;*/
-    padding-left: 20px;
-    padding-top: 20px;
-    
 }
 #recommandations1
 {
@@ -303,20 +184,12 @@ border: 1px solid black;
 {
 	display: flex;
 	flex-direction: row;
-	/*width: 75%;*/
 	height: 100px;
 	margin-left: 20px;
 }
-.recommandations21
+.recommandations21, .recommandations22
 {
 	width: 50%;
-	height: 50px;
-
-}
-.recommandations22
-{
-	width: 50%;
-	height: 50px;
 }
 h4
 {
@@ -327,27 +200,24 @@ h4
 {
 	#loisirs
 	{
-		padding: 0;
+	 padding: 0;
     }
-    #annee .competences1 { display: none; }
-	#annee .competences2 { display: none; }
-	#date .experience1 { display: none; }
-	#date .experience2 { display: none; }
-	#date .experience3 { display: none; }
-}
 @media screen and (max-width:570px)
 {
-	#page
-  {
-	flex-direction: column;
+   #page
+   {
+    flex-direction: column;
    }
    #unmoit
    {
-   	width: 100%;
+    width: 100%;
    }
-    #nom { height: 50px; 
-          width: 80%;
-          padding-top:10px;}
+   #nom 
+   { 
+    height: 50px; 
+    width: 80%;
+    padding-top:10px;
+   }
    #secmoit
    {
    	width: 100%;
@@ -363,13 +233,26 @@ h4
 @media screen and (max-width:400px)
 {
 	#page
-  {
+   {
 	flex-direction: column;
    }
-   #unmoit { width: 100%; }
-   #secmoit { width: 100%; 
-              height: 1250px;}
-   #nom { width: 80%; }
+   #unmoit 
+   { 
+   	width: 100%; 
+   }
+   #loisirs
+   {
+	display: flex;
+	flex-direction:row;
+   }
+   #secmoit 
+   { 
+   	width: 100%;
+   }
+   #nom 
+   { 
+   	width: 80%; 
+   }
    #image
    {
    	width: 100%;
@@ -381,51 +264,42 @@ h4
    {
    	display: flex;
    	flex-direction: column;
-   	height: 300px;
-    }
-    
-.competences2 {display: none;}
-.annee2 .annee1 
+   }
+   .annee2, .annee1 
    {
 	width: 100%;
-	height: 30px;
    }
-#annee { width: 100%;
-         height: 250px; 
-         margin-left:0px;}
-#annee .competences1
-{
-	display: flex;
+   .competences1, .competences2
+   {
+	width:100%;
+	padding-left: 0;
+   }
+   strong
+   {
+	padding-left: 20px;
+   }
+   #Experience2 
+   { 
+   	width: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+   .date1, .date2, .date3
+   { 
+	width: 100%;
+   }
+   .experience1, .experience2, .experience3
+   {
+	width: 100%;
+   }
+   #recommandations2 
+   { 
 	flex-direction: column;
-	width:90%;
-	}
-#annee .competences2
-{
-	display: flex;
-	flex-direction: column;
-}
-	#competences { display: none; }
-
-#Experience3 {display: none;}
-#date .experience1 {display: flex;
-                    flex-direction: column;}
-#date .experience2 { display: flex;
-                    flex-direction: column;}
-#date .experience3 { display: flex;
-                    flex-direction: column;}
-#Experience2 { height: 500px; }
-#date { width: 100% ;
-        height:1000px; }
-.date1 { height: 30px;
-         padding-left: 0; }
-.date2 { height: 30px;
-         padding-left: 0; }
-.date3 { height: 30px;
-         padding-left: 0; }
-#recommandations1 { margin-top: 170px; }
-#recommandations2 { flex-direction: column;
-                    width: 100%;
-                    padding-bottom: 100px; }
-.recommandations21 { height: 100px;}
-}
+    width: 100%;
+    padding-bottom: 100px; 
+   }
+   .recommandations21 
+   { 
+	height: 100px;
+   }
 }
