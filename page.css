@@ -286,20 +286,20 @@ h4
    }
    .date1, .date2, .date3
    { 
-	width: 100%;
+	 width: 100%;
    }
    .experience1, .experience2, .experience3
    {
-	width: 100%;
+	 width: 100%;
    }
    #recommandations2 
    { 
-	flex-direction: column;
+	  flex-direction: column;
     width: 100%;
     padding-bottom: 100px; 
    }
    .recommandations21 
    { 
-	height: 100px;
+	 height: 100px;
    }
 }
